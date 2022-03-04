@@ -52,3 +52,17 @@ console.log("El perimetro del circulo es " + perimetroCirculo + " cms.");
 const areaCirculo = PI * (radioCirculo**2);
 console.log("El area del circulo es " + areaCirculo + " cms.");
 console.groupEnd();
+
+
+//Encapsulamdo en funciones
+
+//cuadrado
+function porlado(lado) {
+    return lado * 4;
+}
+
+//triangulo
+function perimetroTriangulo(lado1, lado2, base) {
+    return lado1 + lado2 + base;
+  }
+  
