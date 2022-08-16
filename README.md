@@ -1,4 +1,3 @@
-# javascript
-notes (apuntes)
+Mis cursos de JavaScript
 
-# platzi-curso-practico-javascript
+- Fundamentos basicos
