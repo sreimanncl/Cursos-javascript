@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu peso en otro Planeta</title>
+</head>
+<body>
+    <h1>Cual es tu peso en otro Planeta</h1>
+
+    <script>
+        var user = prompt('Cuanto pesas?');
+        var planeta = parseInt( prompt('Elge tu planeta - 1 para Marte  - 2 para Jupiter'));
+        var g_tierra = 9.8;
+        var g_marte = 3.7;
+        var g_jupiter = 24.8;
+        var peso = parseInt(user);
+        var peso_final;
+        var name
+        if (planeta == 1) {
+            peso_final = peso * g_marte / g_tierra;    
+            name = 'Marte'
+        }
+        else if (planeta == 2) {
+            peso_final = peso * g_jupiter / g_tierra;
+            name = 'Jupiter';
+        }
+        else {
+            peso_final = 100000
+            name = 'kripton'
+        }
+        peso_final = parseInt(peso_final);
+        document.write('Tu peso en ' + name + ' es <strong>' + peso_final + 'Kg</strong>')
+    </script>
+</body>
+</html>
