@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clases  y array</title>
+</head>
+<body>
+    <script>
+        var imagenes = [];
+        imagenes["Cauchin"] = "../juego-en-canvas/img/vaca.png";
+        imagenes["Pokacho"] = "../juego-en-canvas/img/pollo.png";
+        imagenes["Tocinauro"] = "../juego-en-canvas/img/cerdo.png";
+
+        class Pakiman
+        {
+            constructor(n, v, a)
+            {
+                this.imagen = new Image();
+                this.nombre = n;
+                this.vida = v;
+                this.ataque = a;
+
+                this.imagen.src = imagenes[this.nombre];
+            }
+        hablar()
+          {
+            alert(this.nombre);
+          }
+        mostrar()
+            {
+                document.body.appendChild(this.imagen);
+                document.write("<br /><strong>" + this.nombre + "</strong><br />");
+                document.write("Vida: " + this.vida + "<br />");
+                document.write("Ataque: " + this.ataque + "<hr />");
+            }
+        }
+
+
+        var aPcauchin = new Pakiman("Cauchin", 100, 30);
+        var aPokacho = new Pakiman("Pokacho", 80, 50);
+        var aPtocinau = new Pakiman("Tocinauro", 120, 40);
+
+        aPcauchin.mostrar()
+        aPokacho.mostrar()
+        aPtocinau.mostrar()
+    </script>
+</body>
+</html>
