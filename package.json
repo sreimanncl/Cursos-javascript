@@ -1,0 +1,22 @@
+{
+  "name": "cursos-javascript",
+  "version": "1.0.0",
+  "description": "cursos js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreimanncl/Cursos-javascript.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "sebastian reimann reimannseba@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreimanncl/Cursos-javascript/issues"
+  },
+  "homepage": "https://github.com/sreimanncl/Cursos-javascript#readme"
+}
