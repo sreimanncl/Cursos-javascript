@@ -1,4 +1,3 @@
-
 //Operadores binarios:
 3 + 2 //Suma
 50 - 10 // Resta

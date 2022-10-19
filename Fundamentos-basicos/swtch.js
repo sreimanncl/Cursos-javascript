@@ -3,8 +3,6 @@ var user = pregunta.toLowerCase();
 var options = ["piedra", "papel", "tijera"];
 var machine = options[Math.floor(Math.random() * 3)];
 
-
-// let numero = 'a';
 //con true los casos van a pasar 
 switch (true) {
     case (user === machine):
@@ -22,5 +20,3 @@ switch (true) {
     default:
         console.log('¡Perdiste!');       
 }
-
-Responder

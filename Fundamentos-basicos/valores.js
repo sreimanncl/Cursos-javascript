@@ -2,7 +2,7 @@
 77
 
 //cadena de Texto o string
-"seba"
+'seba'
 
 //Booleano por george boolean
 true
@@ -14,4 +14,7 @@ undefined
 
 //objeto
 [1,2,3]
-{nombre: "seba"}
+{
+    nombre: 'sebastian'
+    apellido: 'reimann'
+}

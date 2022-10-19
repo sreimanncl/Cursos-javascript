@@ -1,4 +1,3 @@
-//declarativas
 //En las funciones declarativas, utilizamos la palabra reservada function al inicio para poder declarar la función:
 
 function mifuncion() {
@@ -10,4 +9,3 @@ function mifuncion() {
 var mifuncion = function(1,2) {
     return 1 + 2;
 }
-mifuncion();

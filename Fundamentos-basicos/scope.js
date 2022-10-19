@@ -7,5 +7,4 @@ function fun(){
     return nombre + " " + apellido;
 }
 
-// fun() va a retornar "Diego Arteaga" desde
-//el codigo se tiene alcance a la variable nombre pero no a apellido.
+fun() // va a retornar "Diego Arteaga" desde el codigo se tiene alcance a la variable nombre pero no a apellido.

@@ -17,5 +17,3 @@ while (estudiantes.length > 0) {
     var estudiante = estudiantes.shift();
     saludarEstudiante(estudiante);
 }
-Responder
-Luis Rangel Castro

@@ -9,7 +9,7 @@
         }
         var y = 1;
 
-    // Como JS lo organiza
+        // Como JS lo organiza
         function sumar(){
             var suma = x + y;
             return suma;
